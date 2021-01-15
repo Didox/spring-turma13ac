@@ -102,7 +102,19 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+settings.gradle
+build.gradle
+gradlew
+gradlew.bat
+
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vscode,windows,linux,macos,java
+.vscode/
+
+# End of https://www.toptal.com/developers/gitignore/api/vscode,windows,linux,macos,javar
+
+rm -rf settings.gradle
+rm -rf build.gradle
+rm -rf gradlew
+rm -rf gradlew.bat
